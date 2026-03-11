@@ -1,24 +1,22 @@
 # NOWOCZESNE TECHNOLOGIE PRZETWARZANIA DANYCH
 
-Cel ćwiczenia:
+Cel ćwiczenia:  
 Celem ćwiczenia jest stworzenie prostego modelu uczenia maszynowego w Pythonie (skorzystanie z biblioteki scikit-learn lub TensorFlow); Zapisywanie i wersjonowanie modelu (pickle, joblib); Omówienie różnic między środowiskiem deweloperskim a produkcyjnym.
 
 ---
 
-Wersję modelu należy podnosić przy zmianie hiperparametrów - np. inny split, większa/mniejsza ilość iteracji, itp. lub przy zmianie datasetu, na którym trenowany był model, lub przy wprowadzeniu dowolnej zmiany w kodzie, która bezpośrednio będzie wpływać na działanie i skuteczność modelu. 
+Wersję modelu należy podnosić przy zmianie hiperparametrów - np. inny split, większa/mniejsza ilość iteracji, itp. lub przy zmianie datasetu, na którym trenowany był model, lub przy wprowadzeniu dowolnej zmiany w kodzie, która bezpośrednio będzie wpływać na działanie i skuteczność modelu.  
 
-model_v1 - pierwsza wersja modelu split 80%/20%, 1000 iteracji 
-informacje o modelu:
-Accuracy: 0.9722222222222222
-Precision: 0.9777777777777779
-Recall: 0.9761904761904763
-Wytrenowany na datasecie load_wine z biblioteki scikit-learn
+model_v1 - pierwsza wersja modelu split 80%/20%, 1000 iteracji  
+informacje o modelu:  
+Accuracy: 0.9722222222222222  
+Precision: 0.9777777777777779  
+Recall: 0.9761904761904763  
+Wytrenowany na datasecie load_wine z biblioteki scikit-learn  
 
-model_v2 - druga wersja modelu ... (w przyszłości)
+model_v2 - druga wersja modelu ... (w przyszłości)  
 
 ---
-
-Różnice między środowiskiem deweloperskim a produkcyjnym:
 
 # Różnice między środowiskiem deweloperskim a produkcyjnym przy wdrażaniu modelu ML
 
